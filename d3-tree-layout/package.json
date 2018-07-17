@@ -1,0 +1,27 @@
+{
+  "name": "d3-pie-chart",
+  "version": "1.0.0",
+  "description": "Pie Chart in D3.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start",
+    "start": "http-server -a localhost -p 8080 ./app"
+  },
+  "author": "Anandakumar Palanismamy",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jsdom-launcher": "^2.0.0",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-read-json": "^1.1.0",
+    "d3": "^3.0.0"
+  }
+}
